@@ -1,0 +1,183 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e3e7eb;
+}
+
+.full-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-left {
+  color: #1b1e2f;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
+  width: 525px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.container-right {
+  display: flex;
+  align-items: flex-end;
+  height: 700px;
+  width: 525px;
+  background-image: url(../img/woman.jpg);
+  background-size: cover;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.welcome {
+  font-size: 14px;
+  color: #acaeb0;
+}
+
+.forgot-pass {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.sign-in-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.sign-in-btns button{
+  font-weight: 600;
+}
+
+.sign-in button {
+  border: none;
+  border-radius: 5px;
+  background-color: #181a29;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sign-in button:hover {
+  background-color: #22263b;
+}
+
+.sign-in-google button {
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgb(172, 174, 176, 0.5);
+  background-color: white;
+  color: #1b1e2f;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Colores para el icono de google */
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+input:focus {
+  color: #1b1e2f;
+}
+
+.email-pass input {
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgb(172, 174, 176, 0.5);
+  padding: 10px;
+  width: 94%;
+  color: #acaeb0;
+}
+
+.create {
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+}
+.create a {
+  color: #1b1e2f;
+  text-decoration: none;
+}
+
+.txt-info .txt-puesto {
+  font-weight: bold;
+}
+
+.txt-info .txt-empresa {
+  font-weight: 300;
+}
+
+.content-right {
+  margin: 50px;
+  backdrop-filter: blur(20px);
+  opacity: 0.9;
+  background-color: rgb(214, 208, 204, 0.3);
+  color: white;
+  padding: 20px;
+  border: 1px solid rgb(202 195 191);
+}
+
+.content-right .txt-opinion {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.txt-info p {
+  line-height: 10px;
+}
+
+.fa-star{
+  font-size: 14px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.buttons button{
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid white;
+}
+
+.container-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
